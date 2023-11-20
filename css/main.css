@@ -1,0 +1,56 @@
+
+/*
+main text   = #8cbce4
+main bg     = #1a3749
+second bg   = #3b6490
+dark bg     = #0c161f
+ */
+
+html{
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+}
+body{
+    background-color: #1a3749;
+    display: flex;
+    flex-flow: column;
+    padding: 2rem 0;
+    align-items: center;
+}
+h1{
+    background-color: #3b6490;
+    color: #8cbce4;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    text-align: center;
+    width: 30%;
+}
+h2{
+    font-weight: bold;
+}
+section{
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    width: 70%;
+}
+div{
+    margin: 1rem 2rem;
+    padding: 0.5rem 1rem;
+}
+dl{
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+    /* ---Helpers--- */
+.idCards{
+    background-color: #0c161fc2;
+}
+.mCard{
+    background-color: #3b6490;
+    color: #8cbce4;
+    border-radius: 0.5rem;
+}
